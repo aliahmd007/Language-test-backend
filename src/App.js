@@ -305,7 +305,7 @@ function App() {
     try {
       const res = await fetch(
         // 🔗 use deployed backend instead of localhost
-        "https://language-test-app-production.up.railway.app/api/generate",
+        "https://language-test-app-production-21f7.up.railway.app/api/generate",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
